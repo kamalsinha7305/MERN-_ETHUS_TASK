@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK 2</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+    
+        .wrapper1{
+          margin-top:100px ;
+           gap: 100px;
+            display: flex;
+            margin-left: 25%;
+        }
+      .container1{
+
+        margin-top: 50px;
+        border: 2px black solid;
+        padding:5px ;
+        height: auto;
+       
+        width: 250px;
+          }  
+      .vetnavbar{
+        
+        background-color: rgba(173,216,230,255);
+       
+       padding:0px ; 
+       
+      }
+      .vertnav{
+       color: blue;
+      font-size: 2rem;
+      }
+
+      .vertnav:hover{
+        background-color: rgba(255,165,0,255);
+
+
+      }
+
+
+      .container2{
+        margin-top: 50px;
+          border: 2px solid black;
+          padding: 5px;
+          height:fit-content;
+          width: fit-content;
+      }
+      .horiznavbar{
+      background-color:rgba(211,211,211,255);
+      display:flex ;
+
+      }
+     
+      .horiznav{
+        font-size: 25px;
+        color: blue;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-right: 2px solid blue;
+
+      }
+      ul{
+        list-style-type:none ;
+      }
+  
+      
+      .horiznav:hover{
+        background-color:rgba(128,128,128,255);
+        color: aliceblue;
+        
+      }
+
+    </style>
+</head>
+<body>
+    
+  <div class="wrapper1">
+ <div class="wrapper2">
+
+  <h1 class="tittle">VERTICAL NAVBAR</h1>
+ <div class="container1">
+     
+    <ul class="vetnavbar">
+        <li class="vertnav">Home</li>
+        <li class="vertnav">Java</li>
+        <li class="vertnav">css</li>
+        <li class="vertnav">HTML</li>
+        <li class="vertnav">Bootstrap</li>
+
+    </ul>
+
+ </div>
+</div>
+<div class="wrapper2">
+  <H1 class="tittle"> HORIZONTAL NAVBAR</H1>
+<div class="container2">
+  <ul class="horiznavbar">
+    
+    <li class="horiznav">HOME</li>
+    <li class="horiznav">JAVA</li>
+    <li class="horiznav">HTML</li>
+    <li class="horiznav">CSS</li>
+
+  </ul>
+
+</div>
+</div>
+</div>
+</body>
+</html>
